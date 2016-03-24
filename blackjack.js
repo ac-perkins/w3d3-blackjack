@@ -19,7 +19,7 @@
         var hardValue = 0;
         var ace = false;
 
-        splitCards.forEach(function (card, i) {
+        splitCards.forEach(function (card) {
             if (Number(card)) {
                 cardValue = cardValue + Number(card);
                 hardValue = hardValue + Number(card);
